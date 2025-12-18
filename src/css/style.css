@@ -1,0 +1,32 @@
+.timer {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+}
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: 250ms ease;
+}
+.field:hover {
+    transform: scale(1.1);
+}
+.value {
+    font-family: 'BBH Bogle', sans-serif;
+    font-size: 46px;
+    padding: 10px;
+}
+.label {
+    font-family: 'BBH Bogle', sans-serif;
+    color: rgba(128, 128, 128, 0.7);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
